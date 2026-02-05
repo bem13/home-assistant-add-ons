@@ -10,7 +10,7 @@ ARG BUILD_FROM
 COPY run.sh /
 RUN chmod a+x /run.sh
 
-RUN FILEBEAT_VERSION=8.8.0; \
+RUN FILEBEAT_VERSION=9.3.0; \
     FILEBEAT_ARCH="${BUILD_ARCH}"; \
     if [ "${BUILD_ARCH}" = "aarch64" ]; then FILEBEAT_ARCH="arm64"; fi; \
     if [ "${BUILD_ARCH}" = "amd64" ]; then FILEBEAT_ARCH="x86_64"; fi; \
