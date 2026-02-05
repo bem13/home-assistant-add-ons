@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: Bert's Home Assistant add-ons
+name: Bert's Home Assistant add-ons bmtest
 url: 'https://github.com/Bert-R/home-assistant-add-ons'
 maintainer: Bert Roos
